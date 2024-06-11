@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Reset</title>
+    <link rel="stylesheet" href="forget.css">
+</head>
+<body>
+    <form action="12.html">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="reset.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="overlay"></div>
+    <div class="form-container">
+        <form action="#" method="POST">
+            <h2> Reset Your Password</h2>
+            <div class="input-group">
+                <label for="email" <i class='bx bxs-envelope'></i>Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="new-password" <i class='bx bxs-lock-alt'></i>New Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password" <i class='bx bxs-lock-alt'></i>Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit">Reset Password</button>
+        </form>
+    </div>
+</body>
+</html>

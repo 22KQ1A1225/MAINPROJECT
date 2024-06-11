@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background: url('c:\Users\house\Downloads\manasa images\4,000+ Free Furniture & Room Photos - Pixabay_files\furniture-1840463_1280.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.video-section {
+    padding: 50px 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.video-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-us {
+    background-color: #ffffff;
+}
+
+.team-section {
+    background-color: #f8f9fa;
+}
+
+.team-section img {
+    width: 150px;
+    height: 150px;
+}
+
+.footer {
+    background: #222;
+    color: #fff;
+}

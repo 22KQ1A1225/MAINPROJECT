@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Registration Form</title>
+    <link rel="stylesheet" href="3dreg.css">
+    <body background="title-six-seater-dining-table-for-glamorous-dining-room.jpg"></body>
+</head>
+<style>
+    body{
+        background-size: 100% 100%;
+    }
+    .myVideo{
+                position: fixed;
+                right: 0%;
+                bottom: 0%;
+                min-width: 100%;
+                min-height: 100%;
+                object-fit: cover;
+                z-index: -1;
+            }
+</style>
+<body>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <form action="12.html">
+    <div class="bg-image"></div>
+    <div class="registration-container">
+        <form class="registration-form">
+            <h2>Register</h2>
+            <div class="input-group">
+                <label for="firstname" <i class='bx bxs-user-circle'></i>First Name</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="input-group">
+                <label for="lastname" <i class='bx bxs-user-circle'></i>Last Name</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </div>
+            <div class="input-group">
+                <label for="email" <i class='bx bxs-envelope'></i>Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password" <i class='bx bxs-lock' ></i>Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <video autoplay muted  loop class="myVideo">
+        <source src="istockphoto-936876078-mp4-480x480-is.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
